@@ -120,11 +120,11 @@
             console.log(ischecked);//true/false
             if (ischecked) {
                 console.log("if");
-                // $("input[name='topFix']").attr('value', 'BOFI02');
+
                 $("input[name='topFix']").val("BOFI02");
             }else{
                 console.log("else");
-                // $("input[name='topFix']").attr('value', 'BOFI01');
+
                 $("input[name='topFix']").val("BOFI01");
 
             }
@@ -143,8 +143,7 @@
                 return;
             }else{
                 console.log('inserting');
-                //alert("제목을 입력해주세요.");
-                // return;
+
             }
             //체크박스 값 가져오기 위한 메서드
             // isChecked();
@@ -152,7 +151,7 @@
 
             console.log("final");
             console.log($("input[name='topFix']").val());
-            //
+
             objForm.submit();
 
             let str = "";
@@ -173,13 +172,7 @@
             formObj.append(str).submit();
         })
 
-        //----------------------------
-        // $("button[type='reset']").on("click", function(e) {
-        //     e.preventDefault();
-        //
-        //     formObj.attr("action", '/group/get=').attr('method', 'get');
-        //     formObj.submit();
-        //})
+
 
 
         // 파일버튼누르면 업로드하는 fileInput $("input[type='file']")
@@ -203,11 +196,6 @@
             }
 
 
-            // if(!checkExtension(file.name, file.size)) {
-            //     return false;
-            // }
-            //
-            // formData.append("uploadFile", file);
 
 
             //여기수정
