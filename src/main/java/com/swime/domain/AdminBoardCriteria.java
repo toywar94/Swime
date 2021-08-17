@@ -34,9 +34,9 @@ public class AdminBoardCriteria {
 
     }
 
-    public String[] getTypeArr(){
-        return type == null? new String[] {}: type.split("");
-    }
+//    public String[] getTypeArr(){
+//        return type == null? new String[] {}: type.split("");
+//    }
 
     //게시물 삭제 후 페이지 번호 검색 조건 유지
     //지금 필요 없을듯..
